@@ -4,9 +4,9 @@ const { test, trait } = use('Test/Suite')('Posts')
 
 const User = use('App/Models/User')
 
-trait('Test/ApiClient')
-trait('Session/Client')
 trait('Auth/Client')
+trait('Session/Client')
+trait('Test/ApiClient')
 
 test('get list of posts', async ({ client }) => {
 

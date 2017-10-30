@@ -31,7 +31,8 @@
     "@adonisjs/vow": "^1.0.12",
     "edge.js": "^1.1.1",
     "got": "^7.1.0",
-    "mysql": "^2.15.0"
+    "mysql": "^2.15.0",
+    "sqlite3": "^3.1.13"
   },
   "devDependencies": {
     "standard": "^10.0.3"
